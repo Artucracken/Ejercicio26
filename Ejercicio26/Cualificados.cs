@@ -41,7 +41,7 @@ namespace Ejercicio26
         }
         public string dameNombre()
         {
-            return "Nombre: " + base.nombre + base.apellidos;
+            return "Nombre: " + base.nombre + " " + base.apellidos;
         }
         public string dameDni()
         {
@@ -53,7 +53,7 @@ namespace Ejercicio26
         }
         public override string informacion()
         {
-            return "Titulación: "+ titulacion + " Departamento: " + departamento;
+            return "Titulación: "+ titulacion + "\n" + " Departamento: " + departamento;
         }
     }
 }

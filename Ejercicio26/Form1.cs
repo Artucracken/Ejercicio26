@@ -14,6 +14,10 @@ namespace Ejercicio26
 {
     public partial class Form1 : Form
     {
+
+        //
+        //  EJERCICIO 26 CREADO EL 13 DE MARZO DE 2022, ENTORNOS DE DESARROLLO
+        //
         public Form1()
         {
             InitializeComponent();
@@ -91,7 +95,7 @@ namespace Ejercicio26
                     obrero = (Obrero)empleado;
                     if ( listView1.SelectedItems[0].Text == obrero.dameNombre())
                     {
-                        lboxMuestra.Items.Add(obrero.dameNombre());
+                        
                         lboxMuestra.Items.Add(obrero.dameDni());
                         lboxMuestra.Items.Add(obrero.dameSueldo());
                         lboxMuestra.Items.Add(obrero.informacion());
@@ -102,7 +106,7 @@ namespace Ejercicio26
                     cualificado = (Cualificados)empleado;
                     if (listView1.SelectedItems[0].Text == cualificado.dameNombre())
                     {
-                        lboxMuestra.Items.Add(cualificado.dameNombre());
+                        
                         lboxMuestra.Items.Add(cualificado.dameDni());
                         lboxMuestra.Items.Add(cualificado.dameSueldo());
                         lboxMuestra.Items.Add(cualificado.informacion());
@@ -113,7 +117,7 @@ namespace Ejercicio26
                     becario = (Becario)empleado;
                     if (listView1.SelectedItems[0].Text == becario.dameNombre())
                     {
-                        lboxMuestra.Items.Add(becario.dameNombre());
+                       
                         lboxMuestra.Items.Add(becario.dameDni());
                         lboxMuestra.Items.Add(becario.dameSueldo());
                         lboxMuestra.Items.Add(becario.informacion());
