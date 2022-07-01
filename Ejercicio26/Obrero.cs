@@ -37,11 +37,11 @@
 
         public override string informacion()
         {
-            return  "Destino: " + destinoTrabajo + " Precio Horas Extra: "+ precioHE +"€";
+            return  "Destino: " + destinoTrabajo +"\n"+ " Precio Horas Extra: "+ precioHE +"€";
         }
         public string dameNombre()
         {
-            return "Nombre: " + base.nombre + base.apellidos;
+            return "Nombre: " + base.nombre + " " + base.apellidos;
         }
         public string dameDni()
         {
